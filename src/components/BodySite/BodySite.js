@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-
 import Home from '../Pages/HomePage/HomePage';
 import About from '../Pages/AboutPage/AboutPage';
 import Pets from '../Pages/PetsPage/PetsPage';

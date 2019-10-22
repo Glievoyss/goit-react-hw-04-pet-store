@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import pets from '../../../pets.json';
 import styles from './styles.module.css';
 
@@ -51,3 +51,10 @@ export default class PetPage extends Component {
     );
   }
 }
+
+PetPage.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({ idPet: PropTypes.string.isRequired }).isRequired,
+  }).isRequired,
+  history: PropTypes.shape({ push: PropTypes.func.isRequired }).isRequired,
+};
