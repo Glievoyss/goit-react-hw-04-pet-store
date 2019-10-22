@@ -1,0 +1,28 @@
+.wraper {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.buttReturn {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  border-style: none;
+}
+
+.buttReturn:hover {
+  background-color: darkolivegreen;
+  color: bisque;
+}
+.photoInfo {
+  display: flex;
+}
+
+.imgPet {
+  width: 300px;
+}
+.pettext {
+  text-align: left;
+  margin-left: 20px;
+}

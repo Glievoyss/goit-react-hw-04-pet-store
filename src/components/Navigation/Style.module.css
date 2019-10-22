@@ -1,0 +1,22 @@
+ul {
+  width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  background-color: rgb(86, 84, 84);
+  /* background-color: rgb(228, 112, 112); */
+}
+li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.menuText {
+  text-decoration: none;
+  color: bisque;
+  size: 25px;
+}
+
+.activeStyle {
+  color: brown;
+}

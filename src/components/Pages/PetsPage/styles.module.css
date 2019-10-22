@@ -1,0 +1,32 @@
+.wrap {
+}
+.listPets {
+  width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+
+  /* background-color: rgb(228, 112, 112); */
+}
+
+.title {
+  margin: 10px;
+}
+.petCard {
+  padding-top: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 250px;
+  border: 1px solid black;
+  /* list-style: none; */
+}
+
+.photoPet {
+  margin: 0 auto;
+
+  width: 200px;
+}
